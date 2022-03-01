@@ -1,11 +1,3 @@
-
-const zero = (number1, number2) => {
-
-    const sum = number1+ number2;
-    const div = sum / 2;
-    return div;
-}
-
-const result = zero(49, 30);
-
-console.log(result.toFixed(2));
+const numbers = [23, 534, 543, 353, 332, 534, 4];
+const div = numbers.map(x => x/7);
+console.log(div);
